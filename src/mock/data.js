@@ -33,7 +33,7 @@ export const projectsData = [
     info: 'A social platform for movie lovers and critics to review movies, dive into discussions, find favourite movies, follow and interact with other users, get specific movies descriptions, and much more.',
     info2: 'ReactJS • Express • MongoDB • NodeJS • Ant Design • Git • Herokou • JavaScript • CSS • HTML',
     url: 'https://moviebook309.herokuapp.com/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/roozbehR/MovieBook', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
