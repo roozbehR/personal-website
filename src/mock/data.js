@@ -58,9 +58,9 @@ export const projectsData = [
     img: 'PopQuiz.jpg',
     title: 'PopQuiz',
     info: 'A JavaScript library which can be used to build cognitive games and online quizzes efficiently and effectively.',
-    info2: 'JavaScipt • CSS • HTML ',
-    url: '',
-    repo: 'https://github.com/roozbehR/JShell', // if no repo, the button will not show up
+    info2: 'JavaScipt • CSS • HTML \n(Source code to be added)',
+    url: 'https://pop-quiz-js.herokuapp.com/',
+    repo: '', // if no repo, the button will not show up
   }
 ];
 
