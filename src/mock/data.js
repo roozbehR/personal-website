@@ -57,10 +57,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'PopQuiz.jpg',
     title: 'PopQuiz',
-    info: 'A JavaScript library which can be used to build cognitive games and online quizzes efficiently and effectively. Use Google Chrome for best experience, source code will be added soon!',
+    info: 'A JavaScript library which can be used to build cognitive games and online quizzes efficiently and effectively. Use Google Chrome!',
     info2: 'JavaScipt • CSS • HTML',
     url: 'https://pop-quiz-js.herokuapp.com/',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/roozbehR/js-library-yadolla6', // if no repo, the button will not show up
   }
 ];
 
