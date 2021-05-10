@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'moviebook.jpg',
     title: 'MovieBook',
     info: 'A social platform for movie lovers and critics to review movies, dive into discussions, find favourite movies, follow and interact with other users, get specific movies descriptions, and much more.',
-    info2: 'ReactJS • Express • MongoDB • NodeJS • Ant Design • Git • Herokou • JavaScript • CSS • HTML\nNote: use Google Chrome for best experience',
+    info2: 'ReactJS • Express • MongoDB • NodeJS • Ant Design • Git • Herokou • JavaScript • CSS • HTML \n Note: use Google Chrome for best experience',
     url: 'https://moviebook309.herokuapp.com/',
     repo: 'https://github.com/roozbehR/MovieBook', // if no repo, the button will not show up
   },
@@ -58,7 +58,7 @@ export const projectsData = [
     img: 'PopQuiz.jpg',
     title: 'PopQuiz',
     info: 'A JavaScript library which can be used to build cognitive games and online quizzes efficiently and effectively.',
-    info2: 'JavaScipt • CSS • HTML \nNote: use Google Chrome for best experience, source code will be added soon!',
+    info2: 'JavaScipt • CSS • HTML \n Note: use Google Chrome for best experience, source code will be added soon!',
     url: 'https://pop-quiz-js.herokuapp.com/',
     repo: '', // if no repo, the button will not show up
   }
