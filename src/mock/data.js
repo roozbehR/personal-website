@@ -24,7 +24,7 @@ export const aboutData = {
     'I am fascinated by the power of software technology and how this power can be harnessed to solve complex problems efficiently and effectively. When I read about “Deep Blue”, the super computer developed by IBM that has beaten the world’s greatest chess grand masters, I was amazed and noticed the countless applications that could use the power of software technology. Many years after, I had the chance to work with a team of developers on a project. In this amamzing experince I applied differnt parts of computer science and software engineering such as design patterns and SOLID principles, all the way to data structures and alogrithms. It was at this time that I understood this is what I am passionate about and what I truly enjoy to do.',
   paragraphThree:
     'I am highly motivated to constantly learn and grow, as well as always doing my best work to build high quality software applications and spend most of my free time learning, problem-solving, and of course coding!',
-  resume: 'https://drive.google.com/file/d/1DkpIAiui18mY4dDau-unycWXeIrSti_y/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1ZHJdFjWCBxWP32xBkpt9ZySLDQOPq4yW/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // EXPERINCES DATA
