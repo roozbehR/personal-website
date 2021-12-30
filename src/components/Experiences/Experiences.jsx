@@ -27,7 +27,7 @@ const Experiences = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
+          <Title title="Work Experience" />
           {experiences.map((experience) => {
             const { title, info, info2, url, repo, img, id } = experience;
 
@@ -49,7 +49,7 @@ const Experiences = () => {
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
                         <p className="mb-4">
-                          <span className="tech-used-header">Technology: </span>
+                          <span className="tech-used-header">Technologies: </span>
                           {info2 || ''}
                         </p>
                       </div>
@@ -60,7 +60,7 @@ const Experiences = () => {
                           className="cta-btn cta-btn--hero"
                           href={url || '#!'}
                         >
-                          See Live
+                          Learn more about {title}
                         </a>
                       )}
 
