@@ -18,23 +18,30 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne:
-    'I am a passionate fourth year student studying computer science at the University of Toronto.',
-  paragraphTwo:
-    'I am fascinated by the power of software technology and how this power can be harnessed to solve complex problems efficiently and effectively. When I read about “Deep Blue”, the super computer developed by IBM that has beaten the world’s greatest chess grand masters, I was amazed and noticed the countless applications that could use the power of software technology. Many years after, I had the chance to work with a team of developers on a project. In this amamzing experince I applied differnt parts of computer science and software engineering such as design patterns and SOLID principles, all the way to data structures and alogrithms. It was at this time that I understood this is what I am passionate about and what I truly enjoy to do.',
-  paragraphThree:
-    'I am highly motivated to constantly learn and grow, as well as always doing my best work to build high quality software applications and spend most of my free time learning, problem-solving, and of course coding!',
-  resume: 'https://drive.google.com/file/d/1ZHJdFjWCBxWP32xBkpt9ZySLDQOPq4yW/view?usp=sharing', // if no resume, the button will not show up
+  paragraphOne: `As a fourth-year computer science student at the University of Toronto, I'm a software fanatic. From complex algorithms to designing high-quality software applications, I'm constantly exploring the power of technology to solve complex problems efficiently and effectively.`,
+  paragraphTwo: `I've been known to spend my free time problem-solving, coding, and attempting to convince my friends that my passion for software engineering is not nerdy, but simply a deep appreciation for the beauty of logic and structure.`,
+  paragraphThree: `As an experienced computer science professional, I relish a challenge and am deeply committed to ongoing learning and growth. I am motivated by the opportunity to take on complex problems and to continuously improve my skills and expertise. Whether I'm developing algorithms or refining my mastery of design patterns, I approach each task with a determination to deliver exceptional results. My dedication to excellence is a hallmark of my career in software engineering, and I am constantly striving to raise the bar and push the limits of what is possible.`,
+  resume: 'https://drive.google.com/file/d/16dOgsI8s54uF4Z3Of07CwuZGvD1i3tjZ/view?usp=share_link', // if no resume, the button will not show up
 };
 
 // EXPERINCES DATA
 export const experienceData = [
   {
     id: nanoid(),
+    img: 'cod-mw2-activision.jpg',
+    title: 'Activision',
+    info: `As a Software Engineering Intern at Activision, I significantly contributed to the development of Call of Duty: Warzone Mobile's lucky draw service by crafting loot box algorithms and implementing service and data layer components. I led the creation of efficient REST APIs, including a high-capacity API, while adhering to best practices like pagination. To ensure system robustness, I used the pytest framework for functional, integration, and unit testing across service and data layers. On a lighter note, after my internship at Activision, I can't guarantee that my Call of Duty skills have improved, but my software engineering prowess has undoubtedly leveled up!`,
+    info2:
+      'Python | pytest | Docker | Kubernetes | SQL | Git | SQLAlchemy | Junkie | Vitess | Distributed Systems',
+    url: 'https://www.activision.com/company/aboutus',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'bankofmontreal.jpg',
     title: 'Bank of Montreal',
     info:
-      "For my second co-op workterm/internship I joined the Bank of Montreal as a software engineer. As part of the ELT development team, I supported variety of other teams by providing them with vital and meaningful data after normalizing them and converting them to reusable files. More importantly, I contributed to release of new version of the team' large-scale application by enhancing, expanding, and performing tests to the backend codebase. Working at BMO was a truly amazing experience and a remarkable journey that I will remember as I am moving forward in my career.",
+      "During my second co-op term, I had the opportunity to join Bank of Montreal as a Software Engineer. As a key member of the ELT development team, I honed my skills in data normalization and transformation, creating reusable files for cross-functional teams. My most notable contribution was the successful release of a new version of our team's large-scale application, where I played a crucial role in enhancing, expanding, and rigorously testing the backend codebase. The invaluable experience gained at BMO has enriched my professional journey and will continue to inform my future endeavors.",
     info2: 'Java | SQL | Git | Putty | WinSCP | Gitbash | DBeaver | Jira',
     url: 'https://www.bmo.com/main/about-bmo/',
     repo: '', // if no repo, the button will not show up
@@ -42,9 +49,8 @@ export const experienceData = [
   {
     id: nanoid(),
     img: 'thebridge.jpg',
-    title: 'The BRIDGE at University of Toronto',
-    info:
-      "For my first co-op workterm/internship I was a volunteer software engineer at the Bridge located at the University of Toronto. The BRIDGE is part of the University of Toronto where business, research, and inovation converge. I worked on a large-scale web application, called Find Dining, for the city of Scarborough. Find Dining helps restuarant owners, at Scarborough, to promote  their restuarants during the pandemic. I quickly learnt and developed 10+ angular components, participated in database design, and desinged and implemented an entire feature's UI\\UX based on the product manager and stakeholders' feebacks.",
+    title: 'The BRIDGE @ University of Toronto',
+    info: `During my inaugural co-op term, I volunteered as a Software Engineer at the Bridge, a University of Toronto hub for business, research, and innovation. I contributed to "Find Dining," a large-scale web application aimed at assisting Scarborough restaurant owners in promoting their establishments amid the pandemic. My skill set rapidly expanded as I developed over ten Angular components, collaborated on database design, and skillfully crafted UI/UX for an entire feature based on feedback from product managers and stakeholders.`,
     info2: 'TypeScript | Git | Angular | CSS | HTML | MongoDB | Agile | Jira',
     url: 'https://www.utsc.utoronto.ca/thebridge/welcome-bridge',
     repo: '', // if no repo, the button will not show up
@@ -61,7 +67,7 @@ export const projectsData = [
       'A social platform for movie lovers and critics to review movies, dive into discussions, find favourite movies, follow and interact with other users, get specific movies descriptions, and much more. Use Google Chrome To View The Website!',
     info2:
       'ReactJS | Express | MongoDB | NodeJS | Ant Design | Git | Herokou | JavaScript | CSS | HTML',
-    url: 'https://moviebook309.herokuapp.com/',
+    url: '',
     repo: 'https://github.com/roozbehR/MovieBook', // if no repo, the button will not show up
   },
   {
@@ -84,16 +90,6 @@ export const projectsData = [
       'Java | JUnit | OOP | SDLC | SOLID Design | Teamwork | Agile | Design Patterns | Algorithms | Data Structures',
     url: '',
     repo: 'https://github.com/roozbehR/JShell', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'PopQuiz.jpg',
-    title: 'PopQuiz',
-    info:
-      'An open-source JavaScript library which can be used to build cognitive games and online quizzes efficiently and effectively. Use Google Chrome To View The Project!',
-    info2: 'JavaScipt | CSS | HTML',
-    url: 'https://pop-quiz-js.herokuapp.com/',
-    repo: 'https://github.com/roozbehR/js-library-yadolla6', // if no repo, the button will not show up
   },
 ];
 
