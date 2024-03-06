@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: `As a fourth-year computer science student at the University of Toronto, I'm a software fanatic. From complex algorithms to designing high-quality software applications, I'm constantly exploring the power of technology to solve complex problems efficiently and effectively.`,
   paragraphTwo: `I've been known to spend my free time problem-solving, coding, and attempting to convince my friends that my passion for software engineering is not nerdy, but simply a deep appreciation for the beauty of logic and structure.`,
   paragraphThree: `As an experienced computer science professional, I relish a challenge and am deeply committed to ongoing learning and growth. I am motivated by the opportunity to take on complex problems and to continuously improve my skills and expertise. Whether I'm developing algorithms or refining my mastery of design patterns, I approach each task with a determination to deliver exceptional results. My dedication to excellence is a hallmark of my career in software engineering, and I am constantly striving to raise the bar and push the limits of what is possible.`,
-  resume: 'https://drive.google.com/file/d/16dOgsI8s54uF4Z3Of07CwuZGvD1i3tjZ/view?usp=share_link', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1VlI5RmTZ6hAX4jIDAB6WwmGVckAbhbyo/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // EXPERINCES DATA
