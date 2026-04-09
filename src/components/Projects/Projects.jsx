@@ -49,7 +49,7 @@ const Projects = () => {
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
                         <p className="mb-4">
-                          <span className="tech-used-header">Technologies: </span>
+                          <span className="tech-used-header">Technologies & Skills: </span>
                           {info2 || ''}
                         </p>
                       </div>

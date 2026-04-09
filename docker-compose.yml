@@ -1,0 +1,19 @@
+services:
+  website:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /app
+    ports:
+      - "8000:8000"
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+      GATSBY_TELEMETRY_DISABLED: "1"
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
+    command: sh -lc "npm install && npm run develop -- -H 0.0.0.0 -p 8000"
+
+volumes:
+  node_modules:

@@ -100,6 +100,34 @@ Once your server has started, go to this url `http://localhost:8000/` and you wi
 
 ---
 
+## Docker workflow
+
+If you are on Apple Silicon or do not want to install Node.js locally, you can run the project in Docker instead.
+
+```bash
+# Build the image and start the Gatsby dev server
+docker compose up --build
+```
+
+The included Compose config runs the app as `linux/amd64`, which avoids the native dependency issues this older Gatsby stack can hit on modern ARM macOS setups.
+
+Open `http://localhost:8000/` once the server is ready.
+
+To stop the server:
+
+```bash
+docker compose down
+```
+
+If you want to rebuild dependencies from scratch:
+
+```bash
+docker compose down -v
+docker compose up --build
+```
+
+---
+
 ## Instructions:
 
 ### Step 1 - STRUCTURE
@@ -127,6 +155,8 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
+  paragraphFour: '',
+  paragraphFive: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 ```

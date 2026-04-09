@@ -11,46 +11,68 @@ export const headData = {
 export const heroData = {
   title: 'Hi, my name is',
   name: 'Roozbeh',
-  subtitle: 'and I am a Software Engineer!',
+  subtitle: 'I am a Software Engineer and aspiring AI/ML Researcher!',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `As a fourth-year computer science student at the University of Toronto, I'm a software fanatic. From complex algorithms to designing high-quality software applications, I'm constantly exploring the power of technology to solve complex problems efficiently and effectively.`,
-  paragraphTwo: `I've been known to spend my free time problem-solving, coding, and attempting to convince my friends that my passion for software engineering is not nerdy, but simply a deep appreciation for the beauty of logic and structure.`,
-  paragraphThree: `As an experienced computer science professional, I relish a challenge and am deeply committed to ongoing learning and growth. I am motivated by the opportunity to take on complex problems and to continuously improve my skills and expertise. Whether I'm developing algorithms or refining my mastery of design patterns, I approach each task with a determination to deliver exceptional results. My dedication to excellence is a hallmark of my career in software engineering, and I am constantly striving to raise the bar and push the limits of what is possible.`,
+  paragraphOne: `Roozbeh is a University of Toronto computer science graduate, motivated to build technology that bridges logic and magic to solve complex problems. He is a lifelong learner, driven by excellence. He received his bachelor's degree with High Distinction in computer science. Shortly after his graduation, Roozbeh joined Amazon Web Services as a Software Engineer, working on cutting-edge, distributed, and durable in-memory databases.`,
+  paragraphTwo: `As a naturally curious, innovative, and lifelong learner, Roozbeh conducted research for Professor Anya Tafliovich at the University of Toronto. He also joined Professor Brian Harrington’s research group. This complements the engineering skills that he has built over time through internships at the Bank of Montreal, Microsoft, and most recently Amazon Web Services.`,
+  paragraphThree: `A few months after Roozbeh joined Amazon, he read the paper "Attention Is All You Need," which revolutionized AI and large language models. This inspired Roozbeh to connect his engineering skills with research in the realm of AI and ML. Motivated by this vision, he made the deliberate decision to leave his role at Amazon Web Services to pursue this path and focus on contributing to the frontier of AI and machine learning.`,
+  paragraphFour: `Roozbeh enjoys wrestling with open-ended, ambiguous, or difficult problems in the realm of computer science and finds solving them very rewarding. He often cites the quote and deeply believes in:`,
+  paragraphFive: `"Any sufficiently advanced technology is indistinguishable from magic." — Arthur C. Clark`,
   resume: 'https://drive.google.com/file/d/1Mf980Zk5wmRONdZxRsyY1Evb6-zK_q02/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // EXPERINCES DATA
 export const experienceData = [
-  {
+    {
     id: nanoid(),
-    img: 'cod-mw2-activision.jpg',
-    title: 'Activision',
-    info: `As a Software Engineering Intern at Activision, I significantly contributed to the development of Call of Duty: Warzone Mobile's lucky draw service by crafting loot box algorithms and implementing service and data layer components. I led the creation of efficient REST APIs, including a high-capacity API, while adhering to best practices like pagination. To ensure system robustness, I used the pytest framework for functional, integration, and unit testing across service and data layers. On a lighter note, after my internship at Activision, I can't guarantee that my Call of Duty skills have improved, but my software engineering prowess has undoubtedly leveled up!`,
+    img: 'AWS.jpg',
+    title: 'Amazon Web Services',
+    info: `I was a Software Engineer on the AWS Memory Databases team, responsible for designing, implementing, and maintaining cutting edge distributed in-memory database systems (Redis/Valkey) that power highly available, enterprise-scale production workloads.`,
     info2:
-      'Python | pytest | Docker | Kubernetes | SQL | Git | SQLAlchemy | Junkie | Vitess | Distributed Systems',
-    url: 'https://www.activision.com/company/aboutus',
+      'Java | Python | Microservices | Distributed Systems | Durable In-Memory Databases | Cloud Platforms | Building Tools | Git',
+    url: 'https://aws.amazon.com/about-aws/',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'bankofmontreal.jpg',
+    img: 'Microsoft.jpg',
+    title: 'Microsoft',
+    info: `As a Software Engineer on the game services team at Microsoft, I was responsible for building distributed systems, more specifically Lucky Draw Service, powering the highly popular Activision titles such as Call of Duty: Warzone Mobile, including loot box algorithms, service/data layer components, and high-performance REST APIs.`,
+    info2:
+      'Python | REST APIs | Microservices | Distributed Systems | Data Structures and Algorithms | SQL | Git | Linting',
+    url: 'https://www.microsoft.com/en-us/about',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'university-of-toronto-logo.jpg',
+    title: 'Research Assistant ',
+    info: `I was a Research Assistant at the University of Toronto, where I conducted research in computer science education under Professor Anya Tafliovich and as a member of Professor Brian Harrington’s research group, including investigating programming misconceptions and researching, designing, and prototyping learning platforms to support introductory programming education.`,
+    info2:
+      'Research Design | Literature Review | Experimental Design | Technical Writing | Academic Collaboration',
+    url: 'https://www.utoronto.ca/about-u-of-t',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'BMO_Logo_1200x627.jpg',
     title: 'Bank of Montreal',
     info:
-      "During my second co-op term, I had the opportunity to join Bank of Montreal as a Software Engineer. As a key member of the ELT development team, I honed my skills in data normalization and transformation, creating reusable files for cross-functional teams. My most notable contribution was the successful release of a new version of our team's large-scale application, where I played a crucial role in enhancing, expanding, and rigorously testing the backend codebase. The invaluable experience gained at BMO has enriched my professional journey and will continue to inform my future endeavors.",
+      "As a Software Engineer Intern at Bank of Montreal, I was responsible for contributing to the design and development of internal tools and automation solutions to improve operational efficiency and support enterprise-scale banking systems.",
     info2: 'Java | SQL | Git | Putty | WinSCP | Gitbash | DBeaver | Jira',
     url: 'https://www.bmo.com/main/about-bmo/',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'thebridge.jpg',
-    title: 'The BRIDGE @ University of Toronto',
-    info: `During my inaugural co-op term, I volunteered as a Software Engineer at the Bridge, a University of Toronto hub for business, research, and innovation. I contributed to "Find Dining," a large-scale web application aimed at assisting Scarborough restaurant owners in promoting their establishments amid the pandemic. My skill set rapidly expanded as I developed over ten Angular components, collaborated on database design, and skillfully crafted UI/UX for an entire feature based on feedback from product managers and stakeholders.`,
+    img: 'university-of-toronto-logo.jpg',
+    title: 'The BRIDGE at University of Toronto',
+    info: `I was a Software Engineer at the BRIDGE (University of Toronto), where I contributed to the development of a large-scale web application ("Find Dining") by building Angular components, collaborating on database schema design, and implementing UI/UX features to support local restaurants during the COVID-19 pandemic.`,
     info2: 'TypeScript | Git | Angular | CSS | HTML | MongoDB | Agile | Jira',
     url: 'https://www.utsc.utoronto.ca/thebridge/welcome-bridge',
     repo: '', // if no repo, the button will not show up
@@ -97,7 +119,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'roozbeh.yadollahi@mail.utoronto.ca',
+  email: 'roozbeh.yadollahi@alumni.utoronto.ca',
 };
 
 // FOOTER DATA
