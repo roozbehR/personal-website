@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: `Roozbeh is a University of Toronto computer science graduate, motivated to build technology that bridges logic and magic to solve complex problems. He is a lifelong learner, driven by excellence. He received his bachelor's degree with High Distinction in computer science. Shortly after his graduation, Roozbeh joined Amazon Web Services as a Software Engineer, working on cutting-edge, distributed, and durable in-memory databases.`,
   paragraphTwo: `As a naturally curious, innovative, and lifelong learner, Roozbeh conducted research for Professor Anya Tafliovich at the University of Toronto. He also joined Professor Brian Harrington’s research group. This complements the engineering skills that he has built over time through internships at the Bank of Montreal, Microsoft, and most recently Amazon Web Services.`,
   paragraphThree: `A few months after Roozbeh joined Amazon, he read the paper "Attention Is All You Need," which revolutionized AI and large language models. This inspired Roozbeh to connect his engineering skills with research in the realm of AI and ML. Motivated by this vision, he made the deliberate decision to leave his role at Amazon Web Services to pursue this path and focus on contributing to the frontier of AI and machine learning.`,
-  paragraphFour: `Roozbeh enjoys wrestling with open-ended, ambiguous, or difficult problems in the realm of computer science and finds solving them very rewarding. He often cites the quote and deeply believes in:`,
+  paragraphFour: `Roozbeh enjoys wrestling with open-ended, ambiguous, or difficult problems in the realm of computer science and finds solving them very rewarding. Motivated by a discussion he had with Professor Vassos Hadzilacos of the University of Toronto, he firmly believes that research should be pursued for the love of it. He often cites the quote and deeply believes in:`,
   paragraphFive: `"Any sufficiently advanced technology is indistinguishable from magic." — Arthur C. Clark`,
   resume: 'https://drive.google.com/file/d/1Mf980Zk5wmRONdZxRsyY1Evb6-zK_q02/view?usp=sharing', // if no resume, the button will not show up
 };
@@ -81,6 +81,28 @@ export const experienceData = [
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'GPT.jpg',
+    title: 'GPT-2 Engine',
+    info:
+      'Developing an ongoing project on transformer-based language models from first principles through the Alignment Research Engineer Accelerator (ARENA) program, including implementing GPT-2–style architectures, training models in PyTorch, and exploring techniques in interpretability and AI alignment.',
+    info2:
+      'PyTorch | Transformers | Neural Networks | Deep Learning | Backpropagation | Model Training | Tokenization | Attention Mechanisms | AI Alignment | Mechanistic Interpretability',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Neural_network.jpg',
+    title: 'Deep Neural Network for Binary Classification',
+    info:
+      'Built and trained a deep neural network from scratch for binary classification tasks, including image-based classification problems such as determining whether an input image contains a cat or not.',
+    info2:
+      'Python | Neural Networks | Deep Learning | Backpropagation | Gradient Descent | Binary Classification | Model Training | NumPy',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'moviebook.jpg',
